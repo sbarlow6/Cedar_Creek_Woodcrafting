@@ -1,0 +1,344 @@
+body  {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.allcontent {
+    width:95%;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header {
+    position:fixed;
+    border-bottom: 40px solid #CC5E4A;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    padding:15px;
+
+    margin-top:11px;
+    margin-left: 50px;
+    height: 0;
+    width: 80%;
+    z-index: 13;
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+        
+
+}
+
+.header-change{
+    position:fixed;
+    border-bottom: 35px solid #CC5E4A;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    text-align: center;
+    padding:15px;
+    margin-top:30px;
+    margin-left: -12px;
+    height: 0;
+    width: 133px;
+    font-size: 6px;
+    z-index: 13;
+    
+}
+
+.titletext {
+    font-family: 'Alfa Slab One', cursive;
+    margin-top:20px;
+    color: #EADBBB;
+    position:relative;
+    white-space: nowrap;
+    
+
+  
+}
+.titletext-change {
+    font-family: 'Alfa Slab One', cursive;
+    margin-top:22px;
+    color: #EADBBB;
+    position:relative;
+    LINE-HEIGHT:10px;
+    white-space: normal;
+}
+.featproject h2 {
+	margin-left:15px;
+}
+
+.logo {
+    position:fixed;
+    width:110px;
+    height:110px;
+    
+    z-index: 12;
+}
+.outernavbar {
+    position:fixed;
+    margin-top:80px;
+    margin-left:-200px;
+    width: 150%;
+    background-color: #EADBBB;
+    z-index:11;
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.outernavbar-change {
+    position:fixed;
+    margin-top:10px;
+    background-color: #EADBBB;
+    z-index:11;
+}
+
+.navbar1 {
+    padding-left: 300px;
+}
+.navbar {
+	padding-left: 300px;
+	margin-bottom: 0px !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+}
+.active {
+    background-color: #111;
+    color: white;
+}
+
+.banner {
+    position: absolute;
+    background-image: url("../layoutimages/wood-9.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position:50% 45%;
+    
+    width: 92%;
+    height: 300px;
+    margin-top:128px;
+    padding-top:80px;   
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  
+}
+.banner-change {
+    
+    margin-top:65px;
+}
+
+.intro {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   
+    background-color:rgba(0, 0, 0, 0.4);
+    color:white;
+    width: 70%
+}
+.toppart {
+}
+
+.featproject {
+    position: absolute;
+    margin-top: 230px;
+    padding:10px;
+    width: 100%;
+	margin-left: -15px;
+    background-color: #efeee5;
+}
+
+
+.testimonials {
+    position: absolute;
+    margin-top: 700px;
+}
+
+.subtext {
+    font-family: 'Alfa Slab One', cursive;
+        color: #EADBBB;
+
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transition-delay: -1s; /* Safari */
+    transition-delay: -1s;
+}
+
+.subtext-change {
+    font-size: 7px;
+}
+
+.counter {
+    height:1px;
+    overflow: hidden;
+}
+.demo {
+    height:1px;
+    overflow: hidden;
+}
+.scrwidth {
+    height:1px;
+    overflow: hidden;
+}
+
+.blocker {
+    height:80px;
+    position: fixed;
+    background-color:white;
+    margin-left:-10px;
+    margin-top:-20px;
+    width: 102%;
+    z-index:10;
+}
+.projdesc {
+    padding-bottom: 15px;
+
+}
+
+.projimg {
+    
+    
+    
+
+}
+.proj {
+    padding: 10px;
+    
+    background-color: #efeee5;
+}
+
+.video {
+    width: 100%;
+    height: 280px;
+}
+
+test2 {
+    white-space: nowrap;
+}
+.header h1 {
+	font-size: 2em;
+}
+
+/*@media screen and (max-width: 50em) {
+    .projimg {
+    margin-left: 3%;
+    width:80%;
+    }
+    .projdesc {
+        float: none;
+        width:80%;
+
+    }
+}
+*/
+@media screen and (max-width: 650px) {
+  .header {
+    position:fixed;
+    border-bottom: 35px solid #CC5E4A;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    text-align: center;
+    padding:15px;
+    margin-top:30px;
+    margin-left: -12px;
+    height: 0;
+    width: 133px;
+    font-size: 6px;
+    z-index: 13;
+    
+} 
+h1 {
+	font-size: 12px !important;
+}
+    .video {
+    height: 280px;
+}
+    
+.titletext {
+    font-family: 'Alfa Slab One', cursive;
+    margin-top:20px;
+    color: #EADBBB;
+    position:relative;
+    LINE-HEIGHT:10px;
+    white-space: normal;
+}
+.outernavbar {
+    position:fixed;
+   
+    margin-top:10px;
+    background-color: #EADBBB;
+    z-index:11;
+}
+    li {
+    float: none;
+    margin: -5px 0 -5px 0;
+
+}
+    li a {
+    padding: 10px 40px;
+
+    }
+.banner {
+    background-position:25% 25%;
+    
+    margin-top:65px;
+}
+.subtext {
+    font-size: 7px;
+}
+    .proj{
+    }
+    .projdesc {
+        float: none;
+
+    }
+    .projimg {
+    }
+    .video {
+    height: 280px;
+}
+.intro {
+	width: 100%;
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
+}
